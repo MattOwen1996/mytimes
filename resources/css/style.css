@@ -7,14 +7,14 @@
   align-items: center;
   width: 100%;
   padding: 10px;
+  border-bottom: 1px solid black;
+  padding-left: 30px;
 }
 
 .logo {
   display: flex;
   color: MediumAquamarine;
-  border: 1px solid black;
   margin-right: auto;
-  padding-right: 820px;
 }
 
 span {
@@ -30,7 +30,7 @@ nav span {
 
 .header nav {
   margin-left: auto;
-  padding-right: 50px;
+  padding-right: 100px;
 }
 
 .logo span {
