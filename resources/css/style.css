@@ -79,5 +79,18 @@ body {
 .content {
   display: flex;
   width: 1232px;
+  margin-right: 10px;
   padding-top: 116px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+/* Middle Column */
+.column.medium {
+  width: 300px;
+}
+
+/* End Column */
+.column.small {
+  width: 240px;
 }
