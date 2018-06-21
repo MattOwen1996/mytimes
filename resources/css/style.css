@@ -17,7 +17,6 @@
   display: flex;
   color: MediumAquamarine;
   margin-right: auto;
-  border: 1px solid black;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
@@ -64,10 +63,6 @@ nav span {
   margin-right: 32px;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .narrative {
   display: block;
 }
@@ -93,10 +88,9 @@ body {
 .content {
   display: flex;
   width: 1232px;
-  margin-right: 10px;
   padding-top: 116px;
   padding-right: 30px;
-  margin-left: 30px;
+  margin: 0 auto 78px auto;
 }
 
 .narrative {
@@ -142,8 +136,25 @@ body {
   font-family: Georgia;
 }
 
+.column.large .story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories {
+  justify-content: space-between;
+  display: flex;
+}
+
 /* Middle Column */
 .column.medium {
+  width: 300px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 
