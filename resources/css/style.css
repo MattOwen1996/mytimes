@@ -57,6 +57,18 @@ nav span {
   width: 630px;
 }
 
+.main-story {
+  justify-content: center;
+  display: block;
+}
+
+.main-story .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -71,8 +83,17 @@ body {
   margin: 0;
 }
 
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+
+}
+
 .main-story .image-content span {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   font-family: Georgia;
   color: white;
@@ -112,6 +133,7 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+
 }
 
 .camera-man.image-content {
